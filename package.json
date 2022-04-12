@@ -1,0 +1,25 @@
+{
+  "name": "aws-serverless-starterkit",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "offline": "serverless offline --stage local"
+  },
+  "author": "Maxim Dobrolinsky",
+  "license": "ISC",
+  "devDependencies": {
+    "@serverless/typescript": "^3.8.0",
+    "@types/aws-lambda": "^8.10.93",
+    "serverless-offline": "^8.5.0",
+    "serverless-webpack": "^5.7.0",
+    "ts-loader": "^9.2.8",
+    "ts-node": "^10.7.0",
+    "webpack": "^5.72.0",
+    "webpack-node-externals": "^3.0.0"
+  },
+  "dependencies": {
+    "joi": "^17.6.0",
+    "pino": "^7.10.0",
+    "serialize-error": "^9.1.1"
+  }
+}
