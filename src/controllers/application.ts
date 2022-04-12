@@ -1,3 +1,6 @@
+import appMiddleware from '../@core/app-middleware';
+import { LambdaHandlerEnum } from '../@shared/enums/app';
+
 class ApplicationController {
   async hello() {
     return 'Hello';
@@ -6,4 +9,7 @@ class ApplicationController {
 
 const applicationController = new ApplicationController();
 
-export const hello = applicationController.hello;
+export const hello = appMiddleware.wrapControllerAction(
+  LambdaHandlerEnum.HELLO,
+  applicationController.hello
+);
