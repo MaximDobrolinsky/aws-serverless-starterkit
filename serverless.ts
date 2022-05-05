@@ -5,6 +5,7 @@ const serverlessConfiguration: AWS = {
   frameworkVersion: '3',
   package: {
     individually: true,
+    path: './build',
   },
   variablesResolutionMode: '20210326',
   custom: {
