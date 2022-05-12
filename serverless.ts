@@ -1,7 +1,7 @@
 import type { AWS } from '@serverless/typescript';
 
 const serverlessConfiguration: AWS = {
-  service: 'service-composite-thingpayload-v2-lambda',
+  service: 'aws-serverless-starterkit',
   frameworkVersion: '3',
   package: {
     individually: true,
