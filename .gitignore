@@ -1,10 +1,11 @@
 # package directories
 node_modules
 jspm_packages
-.webpack
 
 # Serverless directories
 .serverless
+.webpack
+.webpack
 
 #tests
 junit.xml
